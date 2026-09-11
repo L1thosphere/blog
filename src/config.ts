@@ -14,7 +14,7 @@ export const themeConfig: ThemeConfig = {
     // author name
     author: 'L1thosphere',
     // site url
-    url: 'http://localhost:4321/',
+    url: 'https://l1thosphere.com',
     // base path
     // root directory for all pages and assets
     base: '/', // e.g., '/blog', '/docs'
