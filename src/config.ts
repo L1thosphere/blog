@@ -66,14 +66,14 @@ export const themeConfig: ThemeConfig = {
   // COMMENT SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   comment: {
     // enable comment system
-    enabled: false, // true | false
+    enabled: true, // true | false
     // giscus
     // https://giscus.app/
     giscus: {
-      repo: '',
-      repoId: '',
-      category: '',
-      categoryId: '',
+      repo: 'L1thosphere/blog',
+      repoId: 'R_kgDOUSbn0g',
+      category: 'Announcements',
+      categoryId: 'DIC_kwDOUSbn0s4DFfme',
       mapping: 'pathname',
       strict: '0',
       reactionsEnabled: '1',
@@ -90,7 +90,7 @@ export const themeConfig: ThemeConfig = {
     // https://waline.js.org/en/
     waline: {
       // server url
-      serverURL: 'https://retypeset-comment.radishzz.cc',
+      serverURL: '',
       // emoji url
       emoji: [
         'https://unpkg.com/@waline/emojis@1.2.0/tw-emoji',
